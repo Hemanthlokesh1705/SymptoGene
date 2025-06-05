@@ -1,0 +1,499 @@
+symptom1,symptom2,symptom3,symptom4,symptom5,symptom6,symptom7,symptom8,disease
+fever,rash,joint pain,abdominal pain,chest pain,lymphadenopathy,fatigue,headache,Familial Mediterranean Fever
+fatigue,joint pain,skin thickening,raynaud phenomenon,difficulty swallowing,heartburn,shortness of breath,digital ulcers,Systemic Sclerosis
+cough,shortness of breath,recurrent infections,thick mucus,poor weight gain,salty sweat,digestive problems,nasal polyps,Cystic Fibrosis
+hyperextensible skin,easy bruising,joint hypermobility,delayed wound healing,mitral valve prolapse,aortic root dilatation,chronic pain,fragile blood vessels,Ehlers-Danlos Syndrome
+tall stature,lens dislocation,aortic enlargement,joint hypermobility,high arched palate,pectus deformity,myopia,striae,Marfan Syndrome
+intellectual disability,hyperactivity,large ears,long face,autism spectrum behaviors,seizures,anxiety,sleep problems,Fragile X Syndrome
+muscle weakness,waddling gait,difficulty rising,calf pseudohypertrophy,progressive muscle loss,respiratory problems,cardiomyopathy,learning difficulties,Duchenne Muscular Dystrophy
+retinal abnormalities,hearing loss,kidney problems,blood in urine,proteinuria,eye pain,corneal erosions,family history,Alport Syndrome
+anemia,bone pain,frequent infections,fatigue,shortness of breath,delayed growth,jaundice,stroke episodes,Sickle Cell Disease
+delayed motor development,muscle weakness,elevated liver enzymes,respiratory problems,cardiomyopathy,feeding difficulties,large tongue,hearing loss,Pompe Disease
+corneal clouding,skeletal abnormalities,heart valve problems,coarse facial features,short stature,developmental delay,joint stiffness,hepatosplenomegaly,Hunter Syndrome
+absent sweat glands,sparse hair,missing teeth,dry skin,heat intolerance,nail abnormalities,cleft palate,immune deficiency,Ectodermal Dysplasia
+short stature,broad chest,short limbs,large head,trident hands,spinal stenosis,sleep apnea,joint problems,Achondroplasia
+delayed development,seizures,autistic features,happy demeanor,ataxia,sleep disturbances,feeding problems,speech impairment,Angelman Syndrome
+hypotonia,feeding problems,almond-shaped eyes,obesity,short stature,behavioral problems,temperature instability,scoliosis,Prader-Willi Syndrome
+butterfly rash,photosensitivity,joint pain,kidney problems,seizures,hair loss,mouth ulcers,raynaud phenomenon,Lupus (SLE)
+polyuria,polydipsia,vision changes,family history diabetes,gradual onset,normal weight,ketosis resistance,hypertension,Maturity Onset Diabetes of the Young
+blue sclera,multiple fractures,hearing loss,short stature,triangular face,loose joints,dental problems,easy bruising,Osteogenesis Imperfecta
+short stature,webbed neck,lymphedema,heart defects,kidney problems,learning difficulties,infertility,osteoporosis,Turner Syndrome
+gynecomastia,small testes,tall stature,learning difficulties,language delays,decreased facial hair,osteoporosis,infertility,Klinefelter Syndrome
+frequent fractures,bowed legs,short stature,dental problems,muscle weakness,bone pain,delayed fontanelle closure,craniosynostosis,Hypophosphatasia
+skin freckling,cafe-au-lait spots,neurofibromas,learning difficulties,seizures,bone abnormalities,vision problems,hypertension,Neurofibromatosis Type 1
+macrocephaly,autism,hamartomas,seizures,skin lesions,thyroid problems,developmental delay,gastrointestinal polyps,PTEN Hamartoma Syndrome
+vision loss,unsteady gait,peripheral neuropathy,hearing loss,heart rhythm problems,skin changes,muscle weakness,cognitive decline,Refsum Disease
+cherry-red spot,developmental regression,seizures,muscle weakness,exaggerated startle response,blindness,feeding difficulties,progressive deterioration,Tay-Sachs Disease
+glaucoma,lens dislocation,skeletal deformities,intellectual disability,seizures,blood clots,psychiatric symptoms,osteoporosis,Homocystinuria
+dry eyes,dry mouth,joint pain,fatigue,swollen glands,dental problems,skin rashes,lung problems,Sjögren Syndrome
+decreased vision,hearing loss,balance problems,night blindness,retinal degeneration,progressive blindness,difficulty walking,genetic inheritance,Usher Syndrome
+muscle stiffness,spasms,excessive startle,anxiety,difficulty walking,back pain,muscle cramps,sensitivity to noise,Stiff Person Syndrome
+recurrent thrombosis,miscarriages,livedo reticularis,low platelet count,neurological symptoms,kidney problems,skin ulcers,stroke risk,Antiphospholipid Syndrome
+joint laxity,velvety skin,easy bruising,yellow papules,vision problems,gastrointestinal bleeding,kidney stones,heart problems,Pseudoxanthoma Elasticum
+cataracts,neuropathy,cerebellar ataxia,tendon xanthomas,diarrhea,intellectual decline,spasticity,seizures,Cerebrotendinous Xanthomatosis
+coarse facial features,hepatosplenomegaly,skeletal abnormalities,corneal clouding,heart problems,respiratory issues,joint stiffness,developmental delay,Hurler Syndrome
+stunted growth,delayed puberty,fatigue,muscle weakness,increased body fat,decreased bone density,social withdrawal,poor concentration,Growth Hormone Deficiency
+hypertension,headache,palpitations,excessive sweating,anxiety,nausea,chest pain,tremor,Pheochromocytoma
+mucosal lesions,skin lesions,nail dystrophy,oral pain,burning sensation,white patches,erosions,scarring,Lichen Planus
+blurred vision,reduced visual field,headaches,eye pain,halos around lights,nausea,red eyes,vision loss,Glaucoma
+hoarse voice,fatigue,weight gain,cold intolerance,constipation,dry skin,hair loss,depression,Hashimoto's Thyroiditis
+skin thickening,itching,hyperpigmentation,joint contractures,difficulty swallowing,shortness of breath,kidney problems,heart problems,Scleroderma
+red scaly patches,itching,silver scale,bleeding,pain,joint problems,nail changes,fatigue,Psoriasis
+photosensitivity,neurological symptoms,abdominal pain,skin blistering,psychiatric symptoms,muscle weakness,seizures,dark urine,Porphyria
+abdominal pain,swelling,nausea,rectal bleeding,diarrhea,weight loss,anemia,family history colon cancer,Familial Adenomatous Polyposis
+blistering skin,sun sensitivity,scarring,fragile skin,nail dystrophy,dental problems,growth retardation,anemia,Epidermolysis Bullosa
+heat intolerance,increased appetite,weight loss,palpitations,tremor,sweating,anxiety,bulging eyes,Graves' Disease
+muscle weakness,drooping eyelids,difficulty swallowing,double vision,slurred speech,breathing problems,fatigue,muscle cramps,Myasthenia Gravis
+anemia,jaundice,fatigue,bone pain,enlarged spleen,growth delays,gallstones,leg ulcers,Beta Thalassemia
+abnormal gait,speech problems,involuntary movements,personality changes,depression,difficulty swallowing,cognitive decline,family history,Huntington's Disease
+skin ulcers,digital infarcts,calcinosis,telangiectasias,sclerodactyly,raynaud phenomenon,difficulty swallowing,shortness of breath,CREST Syndrome
+weakness,fasciculations,spasticity,difficulty speaking,difficulty swallowing,breathing problems,muscle cramps,emotional lability,Amyotrophic Lateral Sclerosis
+tremor,rigidity,bradykinesia,postural instability,masked face,shuffling gait,depression,sleep problems,Parkinson's Disease
+memory loss,confusion,personality changes,difficulty with daily tasks,language problems,disorientation,mood changes,withdrawal,Alzheimer's Disease
+fatigue,weight loss,night sweats,enlarged lymph nodes,fever,itching,alcohol-induced pain,cough,Hodgkin's Lymphoma
+excessive thirst,frequent urination,weight loss,fatigue,blurred vision,slow healing,ketones in urine,nausea,Type 1 Diabetes
+excessive bleeding,easy bruising,petechiae,nosebleeds,heavy menstrual periods,bleeding gums,prolonged bleeding after surgery,family history bleeding,Von Willebrand Disease
+heart murmur,shortness of breath,fatigue,chest pain,dizziness,syncope,palpitations,exercise intolerance,Marfan Syndrome Cardiac Variant
+bone pain,pathological fractures,hypercalcemia,anemia,kidney problems,confusion,constipation,fatigue,Multiple Myeloma
+seizures,developmental delay,skin abnormalities,behavioral problems,learning difficulties,kidney problems,heart abnormalities,dental problems,Tuberous Sclerosis
+ataxia,muscle weakness,vision problems,hearing loss,diabetes,heart problems,scoliosis,foot deformities,Friedreich's Ataxia
+short stature,distinctive facial features,heart defects,intellectual disability,friendly personality,anxiety,attention problems,hypercalcemia,Williams Syndrome
+developmental delay,macrocephaly,seizures,autism spectrum behaviors,intellectual disability,hyperactivity,sleep problems,connective tissue problems,Fragile X Syndrome (Advanced)
+joint stiffness,nodules,contractures,hand deformity,difficulty gripping,progressive worsening,family history,alcohol association,Dupuytren Contracture
+vision loss,peripheral vision loss,night blindness,difficulty with color vision,light sensitivity,progressive blindness,family history,genetic inheritance,Retinitis Pigmentosa
+weight loss,abdominal pain,diarrhea,bloating,fatigue,nutrient deficiencies,skin rash,bone problems,Celiac Disease
+abdominal pain,diarrhea,rectal bleeding,weight loss,fatigue,fever,mouth sores,joint pain,Crohn's Disease
+joint pain,skin rash,kidney problems,muscle weakness,raynaud phenomenon,lung problems,fever,fatigue,Mixed Connective Tissue Disease
+anemia,fatigue,shortness of breath,growth retardation,congenital anomalies,heart problems,cleft palate,triphalangeal thumbs,Diamond-Blackfan Anemia
+respiratory distress,cyanosis,poor feeding,recurrent infections,heart defects,low calcium,distinctive facial features,developmental delay,DiGeorge Syndrome
+low muscle tone,feeding difficulties,distinctive facial features,intellectual disability,heart defects,vision problems,hearing problems,increased infection risk,Down Syndrome
+cleft lip/palate,heart defects,abnormal fingers,learning difficulties,speech delays,behavioral problems,kidney problems,immune deficiency,22q11.2 Deletion Syndrome
+swelling,pain,warmth,skin discoloration,family history clots,recent surgery,prolonged immobility,oral contraceptive use,Thrombophilia
+muscle wasting,sensory loss,foot deformities,weakness,difficulty walking,hand weakness,balance problems,family history,Charcot-Marie-Tooth Disease
+excessive sweating,flushing,diarrhea,heart palpitations,wheezing,abdominal pain,weight loss,skin changes,Carcinoid Syndrome
+excessive bruising,thin skin,poor wound healing,weight gain,high blood pressure,diabetes,depression,osteoporosis,Cushing Syndrome
+excessive hair growth,irregular periods,acne,weight gain,insulin resistance,infertility,mood changes,sleep apnea,Polycystic Ovary Syndrome
+heat intolerance,palpitations,tremor,weight loss,anxiety,sweating,diarrhea,muscle weakness,Thyrotoxicosis
+cold intolerance,fatigue,constipation,weight gain,dry skin,hair loss,depression,muscle weakness,Hypothyroidism
+breathing difficulties,lung infections,digestive problems,chronic cough,sinus infections,ear infections,infertility,bronchiectasis,Primary Ciliary Dyskinesia
+headaches,vision problems,pulsatile tinnitus,nausea,vomiting,double vision,neck stiffness,confusion,Idiopathic Intracranial Hypertension
+butterfly rash,arthritis,photosensitivity,kidney problems,neurological symptoms,blood disorders,fever,fatigue,Lupus Erythematosus
+fever,lymphadenopathy,hepatosplenomegaly,neurological symptoms,bleeding,liver dysfunction,kidney problems,respiratory failure,Hemophagocytic Lymphohistiocytosis
+muscle weakness,cardiac abnormalities,exercise intolerance,fatigue,seizures,hearing loss,vision problems,developmental delays,Mitochondrial Myopathy
+fatigue,muscle pain,brain fog,sleep disturbances,headaches,tender points,depression,anxiety,Chronic Fatigue Syndrome
+seizures,skin lesions,developmental delay,glaucoma,hemiparesis,intellectual disability,port wine stain,eye abnormalities,Sturge-Weber Syndrome
+hypermobile joints,stretchy skin,fragile blood vessels,easy bruising,organ rupture,arterial dissection,pneumothorax,severe complications,Vascular Ehlers-Danlos Syndrome
+progressive blindness,encephalopathy,ataxia,seizures,dementia,movement disorders,behavioral changes,premature death,Batten Disease
+yellow skin,vomiting,enlarged liver,neurological problems,poor feeding,failure to thrive,developmental delays,kernicterus risk,Crigler-Najjar Syndrome
+poor growth,facial abnormalities,congenital heart defects,bleeding disorders,learning difficulties,short stature,webbed neck,cryptorchidism,Noonan Syndrome
+microcephaly,spasticity,intellectual disability,seizures,movement disorders,breathing problems,feeding difficulties,progressive deterioration,Rett Syndrome
+intellectual disability,behavioral problems,macro-orchidism,autism spectrum behaviors,hyperactivity,seizures,connective tissue problems,mitral valve prolapse,Fragile X Syndrome
+heart murmur,blue tinge to skin,fatigue,shortness of breath,poor feeding,failure to thrive,clubbing,squatting position,Tetralogy of Fallot
+kidney cysts,liver cysts,cerebral aneurysms,high blood pressure,kidney stones,urinary tract infections,back pain,kidney failure,Polycystic Kidney Disease
+tremor,ataxia,dementia,liver problems,corneal rings,psychiatric symptoms,movement disorders,difficulty swallowing,Wilson's Disease
+jaundice,dark urine,abdominal pain,fatigue,stress-induced symptoms,fasting-induced symptoms,mild elevation bilirubin,family history,Gilbert's Syndrome
+joint pain,fever,salmon-colored rash,cold-induced symptoms,conjunctivitis,lymphadenopathy,headache,muscle pain,Familial Cold Autoinflammatory Syndrome
+recurrent infections,failure to thrive,diarrhea,pneumonia,opportunistic infections,absent lymphoid tissue,family history early death,genetic inheritance,Severe Combined Immunodeficiency
+hair loss,nail dystrophy,skin changes,bone marrow failure,lung fibrosis,liver problems,premature aging,cancer predisposition,Dyskeratosis Congenita
+abnormal red blood cells,jaundice,enlarged spleen,anemia,gallstones,leg ulcers,fatigue,family history anemia,Hereditary Spherocytosis
+heart abnormalities,limb defects,vertebral anomalies,kidney problems,growth problems,anal atresia,tracheoesophageal fistula,multiple malformations,VACTERL Association
+hemoptysis,telangiectasia,epistaxis,arteriovenous malformations,family history bleeding,iron deficiency anemia,shortness of breath,fatigue,Hereditary Hemorrhagic Telangiectasia
+facial weakness,shoulder weakness,distal myopathy,foot drop,scapular winging,hearing loss,retinal abnormalities,asymmetric weakness,Facioscapulohumeral Muscular Dystrophy
+chorea,psychiatric symptoms,cognitive decline,personality changes,depression,irritability,difficulty swallowing,weight loss,Huntington's Disease
+clubfoot,scoliosis,contractures,joint deformities,muscle weakness,respiratory problems,feeding difficulties,multiple joint involvement,Arthrogryposis
+high-arched palate,long fingers,flat feet,tall stature,scoliosis,joint contractures,muscle weakness,heart problems,Beals Syndrome
+sudden cardiac death,syncope,palpitations,family history sudden death,prolonged QT interval,torsades de pointes,exercise-induced symptoms,medication sensitivity,Long QT Syndrome
+hemolytic anemia,neurological abnormalities,kidney failure,thrombocytopenia,schistocytes,confusion,seizures,hypertension,Hemolytic Uremic Syndrome
+skin ulceration,chronic inflammation,delayed wound healing,painful lesions,pathergy,arthritis,eye inflammation,bowel disease association,Pyoderma Gangrenosum
+recurrent pneumonia,sinusitis,bronchiectasis,situs inversus,infertility,chronic cough,hearing loss,anosmia,Kartagener Syndrome
+stiffness,back pain,reduced spinal mobility,fatigue,eye inflammation,bowel problems,skin lesions,family history,Ankylosing Spondylitis
+seizures,intellectual disability,adenoma sebaceum,cardiac rhabdomyomas,renal angiomyolipomas,cortical tubers,behavioral problems,autism spectrum,Tuberous Sclerosis Complex
+muscle weakness,recurrent infections,hypotonia,respiratory problems,feeding difficulties,distinctive facial features,ptosis,ophthalmoplegia,Myotubular Myopathy
+muscle weakness,muscle atrophy,fasciculations,breathing problems,swallowing difficulties,progressive weakness,family history,genetic inheritance,Spinal Muscular Atrophy
+glaucoma,megalocornea,iris hypoplasia,dental abnormalities,umbilical abnormalities,hearing loss,distinctive facial features,developmental delays,Axenfeld-Rieger Syndrome
+microphthalmia,intellectual disability,seizures,corpus callosum agenesis,chorioretinal lacunae,vertebral abnormalities,female predominance,infantile spasms,Aicardi Syndrome
+heart abnormalities,hearing loss,pigmentary changes,syncope,sudden cardiac death,prolonged QT interval,family history deafness,cardiac arrhythmias,Jervell and Lange-Nielsen Syndrome
+ichthyosis,mental retardation,spastic diplegia,retinal degeneration,fatty aldehyde accumulation,pruritis,growth retardation,seizures,Sjögren-Larsson Syndrome
+hair loss,nail dystrophy,palmoplantar keratoderma,oral leukoplakia,hoarse voice,painful nails,thickened skin,steatocystoma,Pachyonychia Congenita
+recurrent infections,eczema,thrombocytopenia,bloody diarrhea,autoimmune problems,increased cancer risk,immunodeficiency,petechial rash,Wiskott-Aldrich Syndrome
+skin fragility,photosensitivity,developmental delay,premature aging,cataracts,hearing loss,growth failure,neurodegeneration,Cockayne Syndrome
+cataracts,hearing loss,skeletal abnormalities,myopia,retinal detachment,cleft palate,joint problems,distinctive facial features,Stickler Syndrome
+dysmorphic facies,short stature,brachydactyly,intellectual disability,behavioral problems,growth retardation,microcephaly,distinctive odor,Smith-Lemli-Opitz Syndrome
+skin vesicles,photosensitivity,hypertrichosis,liver problems,abdominal pain,red urine,neurological symptoms,iron overload,Porphyria Cutanea Tarda
+palpitations,syncope,sudden cardiac arrest,family history sudden death,abnormal ECG,ventricular arrhythmias,exercise intolerance,fever-induced symptoms,Brugada Syndrome
+neutropenia,recurrent infections,oral ulcers,fever,skin infections,gingivitis,lymphadenopathy,cyclic pattern,Cyclic Neutropenia
+anemia,leukopenia,thrombocytopenia,growth retardation,skeletal abnormalities,kidney problems,cancer predisposition,chromosomal instability,Fanconi Anemia
+finger contractures,webbing,fibromas,palm nodules,finger deviation,functional impairment,family history,progressive worsening,Dupuytren's Disease
+short stature,webbed neck,broad chest,heart defects,learning difficulties,bleeding disorders,lymphatic problems,kidney abnormalities,Noonan Syndrome
+patchy baldness,nail pitting,joint pain,autoimmune thyroid disease,vitiligo,atopic dermatitis,emotional stress,family history autoimmune,Alopecia Areata
+mental decline,spasticity,blindness,adrenal insufficiency,behavioral problems,seizures,hearing loss,skin pigmentation,Adrenoleukodystrophy
+ptosis,ophthalmoplegia,pigmentary retinopathy,heart block,muscle weakness,exercise intolerance,diabetes,hearing loss,Kearns-Sayre Syndrome
+recurrent fractures,blue sclerae,dentinogenesis imperfecta,short stature,triangular face,hearing loss,easy bruising,bone deformity,Osteogenesis Imperfecta Type III
+microcephaly,optic atrophy,intellectual disability,hypotonia,seizures,chorioretinal dystrophy,truncal obesity,distinctive facial features,Cohen Syndrome
+intellectual disability,hyperphagia,hypogonadism,obesity,retinitis pigmentosa,polydactyly,kidney problems,behavioral problems,Bardet-Biedl Syndrome
+sun sensitivity,skin cancer,freckling,premature aging,cataracts,neurological problems,growth retardation,DNA repair defect,Xeroderma Pigmentosum
+red blood cell abnormalities,iron overload,fatigue,liver problems,diabetes,heart problems,skin pigmentation,joint pain,Hereditary Hemochromatosis
+heart abnormalities,skeletal malformations,urogenital anomalies,growth deficiency,distinctive facial features,kidney problems,limb defects,multiple organ involvement,CHARGE Syndrome
+dysphagia,regurgitation,respiratory issues,coughing,choking,pneumonia,feeding difficulties,failure to thrive,Esophageal Atresia
+cleft palate,micrognathia,glossoptosis,breathing problems,feeding difficulties,hearing loss,speech delays,dental problems,Pierre Robin Sequence
+optic nerve hypoplasia,midline defects,hormonal deficiencies,vision problems,growth hormone deficiency,seizures,developmental delays,pituitary dysfunction,Septo-Optic Dysplasia
+intestinal polyps,skin pigmentation,increased cancer risk,gastrointestinal bleeding,intussusception,family history cancer,mucocutaneous pigmentation,breast cancer risk,Peutz-Jeghers Syndrome
+skin tumors,colon cancer,desmoid tumors,osteomas,dental abnormalities,retinal pigmentation,family history cancer,multiple polyps,Gardner Syndrome
+intellectual disability,short stature,stubby hands,distinctive facial features,behavioral problems,sleep apnea,spinal problems,eye abnormalities,Rubinstein-Taybi Syndrome
+tall stature,hyperextensible joints,lens dislocation,intellectual disability,seizures,blood clots,osteoporosis,psychiatric problems,Homocystinuria
+muscle cramps,exercise intolerance,rhabdomyolysis,fatigue,muscle pain,weakness,myoglobinuria,glucose metabolism defect,McArdle Disease
+progressive myoclonus,seizures,ataxia,dementia,visual loss,muscle weakness,dysarthria,polyglucosan bodies,Lafora Disease
+movement disorders,intellectual disability,self-mutilation,kidney stones,gout,spasticity,choreoathetosis,behavioral problems,Lesch-Nyhan Syndrome
+muscle weakness,cataracts,frontal balding,myotonia,cardiac conduction defects,diabetes,sleep apnea,gastrointestinal problems,Myotonic Dystrophy
+abnormal eye movements,poor balance,dysarthria,ataxia,tremor,cognitive impairment,depression,family history,Spinocerebellar Ataxia
+bone fragility,blue sclerae,hearing loss,short stature,joint hypermobility,easy bruising,dental problems,triangular face,Van der Hoeve Syndrome
+coarse facial features,short stature,hepatosplenomegaly,corneal clouding,joint stiffness,heart problems,respiratory issues,developmental delay,Mucopolysaccharidosis
+overgrowth,asymmetry,macrocephaly,macroglossia,omphalocele,neonatal hypoglycemia,cancer predisposition,ear abnormalities,Beckwith-Wiedemann Syndrome
+heart defects,cleft palate,learning difficulties,speech delays,distinctive facial features,immune deficiency,behavioral problems,kidney abnormalities,Velocardiofacial Syndrome
+dry skin,sparse eyebrows,brittle hair,missing teeth,heat intolerance,nail abnormalities,immune problems,cleft lip/palate,Ectodermal Dysplasia Syndrome
+excessive bruising,gum bleeding,post-surgical bleeding,nosebleeds,large platelets,thrombocytopenia,giant platelets,bleeding time prolonged,Bernard-Soulier Syndrome
+stroke,seizures,psychiatric symptoms,migraine,mood disorders,cognitive decline,white matter lesions,family history stroke,CADASIL
+abnormal fat distribution,insulin resistance,acanthosis nigricans,diabetes,high triglycerides,fatty liver,muscle weakness,distinctive appearance,Lipodystrophy
+scaly skin,dry skin,hyperkeratosis,itching,fish-like scales,palmar/plantar involvement,family history,genetic inheritance,Ichthyosis Vulgaris
+congenital heart defects,distinctive facial features,learning disabilities,increased infection risk,vision problems,hearing problems,thyroid problems,leukemia risk,Down Syndrome
+early-onset cataracts,myotonia,distal muscle weakness,cardiac conduction defects,testicular atrophy,insulin resistance,cognitive impairment,multisystem involvement,Myotonic Dystrophy Type 1
+muscle weakness,contractures,cardiomyopathy,joint contractures,cardiac conduction defects,sudden cardiac death,progressive weakness,family history,Emery-Dreifuss Muscular Dystrophy
+diabetes insipidus,short stature,obesity,behavioral problems,skin picking,temperature dysregulation,high pain threshold,distinctive facial features,Prader-Willi Syndrome
+muscle weakness,exercise intolerance,myalgia,rhabdomyolysis,creatine kinase elevation,glycogen storage defect,second wind phenomenon,family history,Glycogen Storage Disease Type V
+retinal dystrophy,deafness,mental retardation,polydactyly,obesity,hypogonadism,kidney cysts,family history,Bardet-Biedl Syndrome
+immune deficiency,opportunistic infections,failure to thrive,chronic diarrhea,recurrent pneumonia,candidiasis,absent thymus,lymphopenia,Severe Combined Immunodeficiency
+progressive muscle weakness,respiratory failure,cardiomyopathy,scoliosis,joint contractures,intellectual disability,feeding difficulties,family history,Duchenne Muscular Dystrophy
+ataxia,peripheral neuropathy,cardiomyopathy,diabetes,scoliosis,foot deformities,dysarthria,family history,Friedreich Ataxia
+tremor,muscle rigidity,bradykinesia,postural instability,freezing episodes,speech problems,depression,sleep disorders,Parkinson Disease
+progressive memory loss,language difficulties,executive dysfunction,behavioral changes,disorientation,agitation,sleep disturbances,family history,Alzheimer Disease
+recurrent miscarriages,venous thrombosis,arterial thrombosis,stroke,livedo reticularis,thrombocytopenia,positive antiphospholipid antibodies,neurological symptoms,Antiphospholipid Syndrome
+chronic fatigue,post-exertional malaise,sleep disturbances,cognitive impairment,orthostatic intolerance,muscle pain,headaches,flu-like symptoms,Chronic Fatigue Syndrome
+joint hypermobility,skin hyperextensibility,tissue fragility,easy bruising,delayed wound healing,hernias,organ prolapse,family history,Ehlers-Danlos Syndrome
+muscle weakness,ptosis,diplopia,bulbar symptoms,fatigability,respiratory weakness,myasthenic crisis,positive antibodies,Myasthenia Gravis
+bone pain,hypercalcemia,kidney stones,anemia,fatigue,confusion,depression,osteoporosis,Multiple Myeloma
+seizures,intellectual disability,skin lesions,cardiac rhabdomyomas,renal angiomyolipomas,behavioral problems,autism spectrum disorder,family history,Tuberous Sclerosis
+progressive ataxia,dysarthria,dysphagia,neuropathy,cardiomyopathy,diabetes,scoliosis,family history,Friedreich Ataxia
+chronic diarrhea,malabsorption,weight loss,abdominal pain,dermatitis herpetiformis,iron deficiency,osteoporosis,family history,Celiac Disease
+inflammatory bowel disease,abdominal pain,diarrhea,weight loss,fever,arthritis,skin lesions,perianal disease,Crohn Disease
+systemic lupus erythematosus,butterfly rash,photosensitivity,arthritis,nephritis,neuropsychiatric symptoms,hematologic abnormalities,antinuclear antibodies,Systemic Lupus Erythematosus
+chest pain,shortness of breath,fatigue,palpitations,dizziness,fainting,exercise intolerance,blue lips,Tetralogy of Fallot
+fever,headache,muscle aches,fatigue,nausea,vomiting,diarrhea,loss of appetite,Influenza
+persistent cough,fever,chills,difficulty breathing,chest pain,fatigue,muscle aches,loss of appetite,Pneumonia
+severe headache,fever,neck stiffness,nausea,vomiting,sensitivity to light,confusion,drowsiness,Meningitis
+stomach pain,nausea,vomiting,fever,loss of appetite,constipation,diarrhea,bloating,Appendicitis
+crushing chest pain,shortness of breath,nausea,sweating,dizziness,fatigue,arm pain,jaw pain,Myocardial Infarction
+high fever,severe headache,muscle pain,weakness,stomach pain,diarrhea,cough,rash,Typhoid Fever
+yellow skin,yellow eyes,dark urine,pale stools,fatigue,nausea,vomiting,abdominal pain,Hepatitis A
+watery diarrhea,vomiting,dehydration,stomach cramps,fever,nausea,headache,muscle aches,Cholera
+skin rash,fever,cough,runny nose,red eyes,sore throat,white spots in mouth,malaise,Measles
+fever,painful swallowing,swollen glands,red throat,white patches,headache,nausea,body aches,Strep Throat
+itchy rash,blisters,fever,fatigue,headache,loss of appetite,fluid-filled vesicles,crusting lesions,Chickenpox
+fever,headache,muscle pain,chills,sweating,nausea,vomiting,back pain,Malaria
+persistent cough,weight loss,fever,night sweats,fatigue,loss of appetite,chest pain,coughing blood,Tuberculosis
+abdominal pain,bloating,gas,diarrhea,constipation,nausea,heartburn,loss of appetite,Irritable Bowel Syndrome
+high blood pressure,headaches,dizziness,chest pain,shortness of breath,nosebleeds,fatigue,vision problems,Hypertension
+excessive thirst,frequent urination,extreme hunger,unexplained weight loss,fatigue,irritability,blurred vision,slow healing,Type 2 Diabetes
+wheezing,shortness of breath,chest tightness,coughing,difficulty breathing,fatigue,anxiety,rapid heartbeat,Asthma
+bone pain,muscle weakness,fatigue,frequent infections,easy bleeding,bruising,weight loss,fever,Leukemia
+persistent heartburn,chest pain,difficulty swallowing,regurgitation,chronic cough,hoarse voice,bad breath,tooth erosion,Gastroesophageal Reflux Disease
+joint pain,morning stiffness,swelling,redness,warmth,decreased range of motion,fatigue,fever,Rheumatoid Arthritis
+mood swings,increased energy,decreased sleep,racing thoughts,grandiosity,impulsivity,irritability,risky behavior,Bipolar Disorder
+persistent sadness,loss of interest,fatigue,sleep changes,appetite changes,guilt,worthlessness,difficulty concentrating,Major Depressive Disorder
+excessive worry,restlessness,fatigue,muscle tension,sleep disturbance,irritability,difficulty concentrating,physical symptoms,Generalized Anxiety Disorder
+intrusive thoughts,compulsive behaviors,anxiety,repetitive actions,checking,counting,cleaning,symmetry obsessions,Obsessive-Compulsive Disorder
+flashbacks,nightmares,avoidance,hypervigilance,emotional numbing,sleep disturbances,irritability,concentration problems,Post-Traumatic Stress Disorder
+hallucinations,delusions,disorganized thinking,abnormal behavior,social withdrawal,cognitive impairment,emotional flatness,speech problems,Schizophrenia
+memory problems,confusion,difficulty with familiar tasks,misplacing items,poor judgment,personality changes,withdrawal,mood changes,Dementia
+seizures,temporary confusion,staring spells,uncontrollable movements,loss of consciousness,memory gaps,tongue biting,incontinence,Epilepsy
+severe headache,nausea,vomiting,sensitivity to light,sensitivity to sound,visual disturbances,aura,throbbing pain,Migraine
+facial pain,electric shock sensations,triggered by touch,brief episodes,unilateral pain,muscle spasms,sensitivity,sharp pain,Trigeminal Neuralgia
+muscle pain,tender points,fatigue,sleep problems,morning stiffness,cognitive difficulties,headaches,irritable bowel,Fibromyalgia
+joint pain,stiffness,swelling,limited motion,bone spurs,cartilage loss,grinding sensation,muscle weakness,Osteoarthritis
+back pain,leg pain,numbness,tingling,weakness,burning sensation,shooting pain,difficulty walking,Sciatica
+neck pain,headache,dizziness,nausea,confusion,memory problems,irritability,sleep disturbances,Whiplash
+kidney stones,severe pain,nausea,vomiting,frequent urination,painful urination,blood in urine,fever,Nephrolithiasis
+burning urination,frequent urination,urgency,cloudy urine,strong odor,pelvic pain,fever,back pain,Urinary Tract Infection
+swollen prostate,difficulty urinating,weak stream,frequent urination,urgent urination,incomplete emptying,nocturia,dribbling,Benign Prostatic Hyperplasia
+pelvic pain,painful periods,heavy bleeding,pain during intercourse,infertility,nausea,fatigue,bowel problems,Endometriosis
+hot flashes,night sweats,mood changes,sleep problems,vaginal dryness,decreased libido,weight gain,memory problems,Menopause
+irregular periods,excessive hair growth,acne,weight gain,insulin resistance,mood changes,sleep apnea,infertility,Polycystic Ovary Syndrome
+morning sickness,breast tenderness,fatigue,frequent urination,food aversions,mood changes,constipation,heartburn,Pregnancy
+chest pain,heart palpitations,shortness of breath,dizziness,fainting,exercise intolerance,fatigue,leg swelling,Heart Disease
+leg cramps,swelling,varicose veins,skin changes,heaviness,aching,restless legs,ulcers,Chronic Venous Insufficiency
+leg pain,cramping,numbness,weakness,cold feet,slow healing wounds,hair loss,pale skin,Peripheral Artery Disease
+sudden weakness,speech problems,vision loss,confusion,severe headache,difficulty walking,numbness,paralysis,Stroke
+dizziness,vertigo,nausea,vomiting,balance problems,hearing loss,tinnitus,headache,Vestibular Disorder
+hearing loss,tinnitus,ear pain,discharge,fullness,dizziness,balance problems,itching,Ear Infection
+red eyes,itching,tearing,discharge,swelling,burning,sensitivity to light,blurred vision,Conjunctivitis
+eye pain,blurred vision,halos around lights,nausea,vomiting,headache,red eyes,vision loss,Acute Glaucoma
+sudden vision loss,flashing lights,floaters,curtain over vision,distorted vision,shadow,peripheral vision loss,eye pain,Retinal Detachment
+dry eyes,gritty feeling,burning,excessive tearing,blurred vision,light sensitivity,eye fatigue,redness,Dry Eye Syndrome
+double vision,drooping eyelids,muscle weakness,difficulty swallowing,slurred speech,breathing problems,fatigue,choking,Myasthenia Gravis
+muscle cramps,weakness,twitching,stiffness,pain,fatigue,difficulty moving,coordination problems,Muscular Dystrophy
+bone pain,frequent fractures,height loss,stooped posture,back pain,limited mobility,kyphosis,fragility,Osteoporosis
+joint swelling,redness,warmth,severe pain,fever,chills,difficulty moving,tenderness,Septic Arthritis
+skin rash,itching,redness,swelling,blisters,burning,pain,crusting,Contact Dermatitis
+dry skin,itching,redness,scaling,cracking,thickening,bleeding,infection,Eczema
+oily skin,blackheads,whiteheads,pimples,cysts,scarring,inflammation,psychological impact,Acne
+skin growths,changes in moles,irregular borders,color changes,bleeding,itching,non-healing sores,asymmetry,Skin Cancer
+hair loss,thinning,receding hairline,bald patches,brittle hair,slow growth,texture changes,scalp irritation,Alopecia
+nail changes,thickening,discoloration,brittleness,splitting,ridges,infections,pain,Nail Disorders
+mouth sores,painful ulcers,difficulty eating,swollen gums,bleeding gums,bad breath,loose teeth,jaw pain,Periodontal Disease
+tooth pain,sensitivity,swelling,fever,bad taste,difficulty chewing,jaw pain,headache,Dental Abscess
+difficulty swallowing,chest pain,regurgitation,weight loss,coughing,choking,heartburn,voice changes,Esophageal Disorders
+stomach pain,nausea,vomiting,bloating,loss of appetite,weight loss,heartburn,feeling full,Peptic Ulcer Disease
+bloody stools,diarrhea,abdominal pain,urgency,tenesmus,weight loss,fatigue,fever,Ulcerative Colitis
+abdominal pain,constipation,diarrhea,bloating,mucus in stool,feeling incomplete evacuation,urgency,gas,Irritable Bowel Syndrome
+yellowing skin,abdominal pain,nausea,vomiting,fatigue,dark urine,pale stools,loss of appetite,Liver Disease
+abdominal pain,nausea,vomiting,fever,rapid pulse,tenderness,back pain,oily stools,Pancreatitis
+abdominal pain,nausea,vomiting,constipation,loss of appetite,fever,bloating,inability to pass gas,Bowel Obstruction
+right upper abdominal pain,nausea,vomiting,fever,jaundice,clay-colored stools,dark urine,indigestion,Gallbladder Disease
+frequent urination,excessive thirst,hunger,weight loss,fatigue,blurred vision,slow healing,tingling,Diabetes Mellitus
+weight gain,fatigue,cold intolerance,constipation,dry skin,hair loss,depression,memory problems,Hypothyroidism
+weight loss,heat intolerance,rapid heartbeat,sweating,nervousness,tremor,frequent bowel movements,eye problems,Hyperthyroidism
+excessive urination,excessive thirst,dehydration,weakness,confusion,seizures,coma,electrolyte imbalance,Diabetes Insipidus
+high blood pressure,muscle weakness,excessive urination,excessive thirst,headaches,fatigue,kidney stones,bone loss,Hyperparathyroidism
+bone pain,muscle weakness,kidney stones,depression,fatigue,nausea,vomiting,confusion,Hypercalcemia
+muscle cramps,numbness,tingling,seizures,personality changes,depression,anxiety,heart rhythm problems,Hypocalcemia
+weakness,fatigue,muscle cramps,nausea,vomiting,confusion,seizures,coma,Hyponatremia
+muscle weakness,paralysis,heart rhythm abnormalities,fatigue,cramping,constipation,frequent urination,kidney problems,Hypokalemia
+shortness of breath,fatigue,weakness,pale skin,cold hands,restless legs,brittle nails,strange cravings,Iron Deficiency Anemia
+fatigue,weakness,pale skin,shortness of breath,dizziness,cold hands,brittle nails,rapid heartbeat,Vitamin B12 Deficiency
+bone pain,muscle weakness,fatigue,depression,hair loss,slow wound healing,increased infections,bone loss,Vitamin D Deficiency
+bleeding gums,loose teeth,fatigue,joint pain,skin problems,slow wound healing,depression,anemia,Scurvy (Vitamin C Deficiency)
+night blindness,dry eyes,skin problems,increased infections,slow growth,reproductive problems,bone problems,tooth problems,Vitamin A Deficiency
+fatigue,confusion,irritability,depression,skin problems,anemia,nerve problems,muscle weakness,Vitamin B Complex Deficiency
+easy bruising,bleeding,fatigue,weakness,joint pain,skin problems,delayed wound healing,dental problems,Vitamin K Deficiency
+muscle weakness,nerve problems,coordination issues,anemia,skin problems,hair loss,reproductive problems,immune dysfunction,Vitamin E Deficiency
+swollen lymph nodes,fever,night sweats,weight loss,fatigue,itching,chest pain,shortness of breath,Lymphoma
+unexplained weight loss,fatigue,fever,night sweats,bone pain,easy bleeding,frequent infections,enlarged organs,Cancer
+lump or mass,pain,swelling,skin changes,nipple discharge,skin dimpling,breast asymmetry,lymph node swelling,Breast Cancer
+changes in bowel habits,blood in stool,abdominal pain,weight loss,fatigue,nausea,vomiting,constipation,Colorectal Cancer
+persistent cough,chest pain,shortness of breath,coughing blood,weight loss,fatigue,hoarse voice,wheezing,Lung Cancer
+difficulty swallowing,chest pain,weight loss,heartburn,coughing,hoarse voice,bone pain,fatigue,Esophageal Cancer
+abdominal pain,weight loss,jaundice,nausea,vomiting,loss of appetite,fatigue,back pain,Pancreatic Cancer
+blood in urine,frequent urination,painful urination,back pain,weight loss,fatigue,swelling,bone pain,Kidney Cancer
+difficulty urinating,blood in urine,frequent urination,painful urination,back pain,weight loss,fatigue,bone pain,Prostate Cancer
+abnormal vaginal bleeding,pelvic pain,pain during intercourse,unusual discharge,weight loss,fatigue,back pain,leg swelling,Cervical Cancer
+abdominal bloating,pelvic pain,difficulty eating,frequent urination,fatigue,back pain,weight loss,abnormal bleeding,Ovarian Cancer
+headaches,seizures,vision problems,hearing problems,balance problems,personality changes,nausea,vomiting,Brain Tumor
+bone pain,fractures,weakness,fatigue,weight loss,fever,night sweats,anemia,Bone Cancer
+skin changes,moles,unusual growths,bleeding,itching,pain,changes in existing moles,non-healing sores,Melanoma
+enlarged lymph nodes,fever,night sweats,fatigue,weight loss,recurrent infections,easy bleeding,bone pain,Hodgkin Disease
+enlarged lymph nodes,fever,night sweats,weight loss,fatigue,abdominal pain,chest pain,shortness of breath,Non-Hodgkin Lymphoma
+bone pain,fractures,anemia,fatigue,kidney problems,frequent infections,bleeding,confusion,Multiple Myeloma
+easy bruising,frequent infections,fatigue,weakness,pale skin,fever,weight loss,bone pain,Acute Leukemia
+fatigue,weakness,enlarged lymph nodes,easy bruising,frequent infections,weight loss,night sweats,abdominal fullness,Chronic Leukemia
+recurrent infections,slow wound healing,frequent illness,fatigue,swollen lymph nodes,diarrhea,weight loss,skin problems,Immunodeficiency Disorders
+allergic reactions,hives,swelling,difficulty breathing,itching,rash,nausea,vomiting,Allergic Disorders
+joint pain,skin rash,fatigue,fever,organ involvement,autoimmune symptoms,inflammation,tissue damage,Autoimmune Disorders
+muscle weakness,skin rash,difficulty swallowing,joint pain,fatigue,fever,lung problems,heart problems,Inflammatory Myopathy
+dry mouth,dry eyes,joint pain,fatigue,swollen glands,skin rash,dental problems,difficulty swallowing,Sjögren's Syndrome
+skin thickening,joint pain,difficulty swallowing,heartburn,shortness of breath,fingertip ulcers,muscle weakness,fatigue,Systemic Sclerosis
+muscle pain,joint pain,skin rash,fatigue,fever,kidney problems,neurological symptoms,blood disorders,Mixed Connective Tissue Disease
+joint pain,skin rash,kidney problems,seizures,fatigue,fever,hair loss,mouth sores,Systemic Lupus Erythematosus
+muscle weakness,skin rash,difficulty climbing stairs,difficulty raising arms,joint pain,fatigue,fever,lung problems,Polymyositis
+skin rash,muscle weakness,joint pain,fatigue,fever,difficulty swallowing,lung problems,heart problems,Dermatomyositis
+temporal headaches,jaw pain,vision problems,scalp tenderness,fatigue,weight loss,fever,muscle aches,Giant Cell Arteritis
+headaches,fatigue,joint pain,vision problems,claudication,weight loss,fever,muscle pain,Temporal Arteritis
+kidney inflammation,blood in urine,protein in urine,high blood pressure,swelling,fatigue,nausea,decreased urination,Glomerulonephritis
+frequent infections,slow growth,developmental delays,skin problems,diarrhea,lung problems,autoimmune disorders,cancer risk,Primary Immunodeficiency
+recurrent infections,chronic inflammation,organ damage,fatigue,fever,joint pain,skin problems,growth delays,Chronic Granulomatous Disease
+recurrent infections,eczema,bleeding problems,small platelets,diarrhea,increased cancer risk,autoimmune problems,immunodeficiency,Wiskott-Aldrich Syndrome
+absent or small thymus,heart defects,facial abnormalities,low calcium,recurrent infections,developmental delays,learning problems,cleft palate,DiGeorge Syndrome
+recurrent bacterial infections,absent immunoglobulins,chronic diarrhea,failure to thrive,lung infections,meningitis,skin infections,arthritis,X-linked Agammaglobulinemia
+variable immunodeficiency,recurrent infections,autoimmune disorders,gastrointestinal problems,lung disease,increased cancer risk,granulomas,lymphadenopathy,Common Variable Immunodeficiency
+severe combined immunodeficiency,failure to thrive,chronic diarrhea,recurrent infections,absent T cells,absent B cells,opportunistic infections,graft versus host disease,Severe Combined Immunodeficiency Disease
+chronic mucocutaneous candidiasis,endocrine disorders,autoimmune polyendocrinopathy,hypoparathyroidism,adrenal insufficiency,chronic infections,nail dystrophy,dental problems,Autoimmune Polyendocrinopathy Syndrome
+recurrent fever,abdominal pain,chest pain,joint pain,skin rash,eye inflammation,oral ulcers,genital ulcers,Periodic Fever Syndromes
+recurrent fever,rash,joint pain,lymphadenopathy,hepatosplenomegaly,serositis,neurological symptoms,growth retardation,Systemic Juvenile Idiopathic Arthritis
+high fever,rash,lymphadenopathy,red eyes,red lips,strawberry tongue,hand swelling,heart problems,Kawasaki Disease
+fever,weight loss,fatigue,joint pain,skin nodules,nerve problems,kidney problems,heart problems,Polyarteritis Nodosa
+asthma,sinusitis,peripheral neuropathy,skin lesions,lung infiltrates,eosinophilia,heart problems,kidney problems,Eosinophilic Granulomatosis with Polyangiitis
+sinusitis,lung nodules,kidney problems,saddle nose,hearing loss,eye problems,skin lesions,joint pain,Granulomatosis with Polyangiitis
+muscle pain,headaches,vision problems,jaw claudication,scalp tenderness,weight loss,fatigue,fever,Polymyalgia Rheumatica
+joint pain,back pain,eye inflammation,skin lesions,bowel inflammation,fatigue,stiffness,reduced mobility,Spondyloarthropathy
+heel pain,back pain,joint swelling,eye inflammation,skin lesions,bowel problems,urogenital infections,family history,Reactive Arthritis
+back pain,stiffness,reduced spinal mobility,fatigue,eye inflammation,heart problems,lung problems,kidney problems,Ankylosing Spondylitis
+joint pain,skin lesions,nail changes,fatigue,stiffness,swelling,eye inflammation,heart problems,Psoriatic Arthritis
+abdominal pain,diarrhea,weight loss,fatigue,fever,joint pain,skin lesions,eye inflammation,Inflammatory Bowel Disease
+bloody diarrhea,abdominal pain,urgency,weight loss,fatigue,fever,joint pain,skin lesions,Ulcerative Colitis
+abdominal pain,diarrhea,weight loss,fatigue,fever,mouth sores,perianal disease,joint pain,Crohn's Disease
+difficulty swallowing,chest pain,weight loss,regurgitation,chronic cough,hoarse voice,heartburn,aspiration,Achalasia
+chest pain,difficulty swallowing,regurgitation,weight loss,chronic cough,hoarse voice,food impaction,aspiration,Esophageal Stricture
+chest pain,difficulty swallowing,regurgitation,heartburn,chronic cough,hoarse voice,aspiration pneumonia,weight loss,Esophageal Motility Disorders
+abdominal pain,nausea,vomiting,bloating,early satiety,weight loss,heartburn,belching,Gastroparesis
+stomach pain,nausea,vomiting,loss of appetite,weight loss,bloating,heartburn,black stools,Gastric Ulcer
+upper abdominal pain,nausea,vomiting,bloating,heartburn,loss of appetite,weight loss,back pain,Duodenal Ulcer
+abdominal pain,diarrhea,constipation,bloating,gas,mucus in stool,urgency,incomplete evacuation,Functional Bowel Disorders
+abdominal pain,constipation,bloating,straining,hard stools,incomplete evacuation,anal fissures,hemorrhoids,Chronic Constipation
+frequent loose stools,urgency,abdominal cramps,bloating,gas,dehydration,weight loss,fatigue,Chronic Diarrhea
+rectal bleeding,anal pain,itching,swelling,prolapse,discharge,difficulty sitting,bowel leakage,Hemorrhoids
+anal pain,bleeding,discharge,itching,muscle spasm,difficulty sitting,painful bowel movements,constipation,Anal Fissure
+perianal abscess,pain,swelling,fever,discharge,difficulty sitting,painful bowel movements,recurrent infections,Anorectal Disorders
+jaundice,abdominal pain,nausea,vomiting,fatigue,loss of appetite,weight loss,dark urine,Acute Hepatitis
+fatigue,jaundice,abdominal swelling,leg swelling,confusion,bleeding,spider veins,muscle wasting,Chronic Liver Disease
+abdominal swelling,leg swelling,shortness of breath,fatigue,loss of appetite,nausea,confusion,jaundice,Cirrhosis
+upper right abdominal pain,nausea,vomiting,fever,jaundice,clay-colored stools,dark urine,bloating,Cholecystitis
+upper right abdominal pain,jaundice,fever,chills,nausea,vomiting,dark urine,clay-colored stools,Choledocholithiasis
+severe abdominal pain,nausea,vomiting,fever,rapid pulse,back pain,weight loss,diabetes,Acute Pancreatitis
+abdominal pain,weight loss,diabetes,steatorrhea,nausea,vomiting,fatigue,malnutrition,Chronic Pancreatitis
+frequent urination,excessive thirst,blurred vision,fatigue,slow healing,frequent infections,numbness,tingling,Diabetic Complications
+kidney damage,protein in urine,high blood pressure,swelling,fatigue,nausea,decreased urination,foamy urine,Diabetic Nephropathy
+vision problems,blurred vision,floaters,dark spots,difficulty seeing at night,vision loss,eye pain,light sensitivity,Diabetic Retinopathy
+numbness,tingling,burning pain,weakness,muscle cramps,loss of reflexes,balance problems,foot ulcers,Diabetic Neuropathy
+slow wound healing,frequent infections,skin problems,gum disease,blurred vision,fatigue,excessive thirst,frequent urination,Diabetes Mellitus Complications
+recurrent fevers,skin rashes,arthralgia,abdominal cramps,chest discomfort,swollen lymph nodes,exhaustion,cephalgia,Familial Mediterranean Fever
+chronic fatigue,arthritis,skin hardening,cold fingers,dysphagia,acid reflux,dyspnea,finger tip sores,Systemic Sclerosis
+persistent cough,breathing difficulties,repeated infections,viscous sputum,failure to thrive,excessive salt in sweat,GI issues,sinus polyps,Cystic Fibrosis
+stretchy skin,frequent bruising,flexible joints,poor healing,heart valve issues,enlarged aorta,persistent pain,vessel fragility,Ehlers-Danlos Syndrome
+increased height,eye lens displacement,aortic dilation,hypermobile joints,roof of mouth abnormality,chest wall deformity,nearsightedness,stretch marks,Marfan Syndrome
+mental retardation,overactivity,prominent ears,elongated face,autistic behaviors,convulsions,nervousness,sleep disorders,Fragile X Syndrome
+weak muscles,duck-like walk,trouble standing,enlarged calves,muscle deterioration,lung problems,heart muscle disease,cognitive impairment,Duchenne Muscular Dystrophy
+eye abnormalities,deafness,renal disease,hematuria,protein in urine,ocular pain,corneal defects,hereditary pattern,Alport Syndrome
+low blood count,skeletal pain,infections,tiredness,breathing problems,growth retardation,yellow skin,vascular episodes,Sickle Cell Disease
+motor delay,muscle weakness,liver enzyme elevation,respiratory issues,heart muscle problems,feeding troubles,macroglossia,auditory loss,Pompe Disease
+cloudy corneas,bone deformities,cardiac valve disease,rough facial appearance,dwarfism,delayed development,stiff joints,organ enlargement,Hunter Syndrome
+missing sweat glands,thin hair,absent teeth,xerosis,heat sensitivity,nail deformities,oral clefts,immunodeficiency,Ectodermal Dysplasia
+small stature,wide chest,shortened extremities,enlarged head,distinctive hands,spinal narrowing,sleep breathing problems,joint issues,Achondroplasia
+developmental delays,epilepsy,autism-like features,cheerful disposition,unsteady gait,sleep issues,eating problems,communication difficulties,Angelman Syndrome
+low muscle tone,feeding difficulties,distinctive eye shape,weight gain,reduced height,conduct problems,temperature regulation issues,spine curvature,Prader-Willi Syndrome
+facial butterfly pattern,sun sensitivity,joint aches,renal involvement,seizure disorder,alopecia,oral sores,cold-induced vasospasm,Lupus (SLE)
+excessive urination,extreme thirst,visual disturbances,diabetic family history,slow progression,maintained weight,ketone resistance,elevated blood pressure,Maturity Onset Diabetes of the Young
+blue-tinted sclera,frequent bone breaks,auditory impairment,reduced stature,triangular facial shape,hypermobile joints,tooth problems,easy bruising,Osteogenesis Imperfecta
+decreased height,neck webbing,fluid retention,cardiac abnormalities,renal issues,educational challenges,reproductive problems,bone density loss,Turner Syndrome
+breast development in males,underdeveloped testes,above average height,academic difficulties,speech delays,reduced facial hair,weak bones,sterility,Klinefelter Syndrome
+repeated bone fractures,leg bowing,stunted growth,dental issues,muscle weakness,skeletal pain,delayed soft spot closure,premature skull fusion,Hypophosphatasia
+skin spotting,coffee-colored marks,nerve tumors,learning problems,seizure activity,bone issues,sight problems,high blood pressure,Neurofibromatosis Type 1
+large head,autism spectrum,tissue growths,convulsions,dermatological lesions,thyroid dysfunction,developmental delays,intestinal polyps,PTEN Hamartoma Syndrome
+sight deterioration,uncoordinated movement,nerve damage,hearing impairment,cardiac rhythm issues,skin alterations,muscle weakness,mental decline,Refsum Disease
+cherry-colored retinal spot,skill regression,seizure disorder,muscle weakness,startle response,vision loss,eating difficulties,progressive decline,Tay-Sachs Disease
+elevated eye pressure,lens displacement,bone deformities,cognitive impairment,convulsions,blood clotting,mental health issues,bone weakness,Homocystinuria
+dry ocular surface,mouth dryness,joint aches,exhaustion,gland swelling,tooth problems,skin eruptions,pulmonary issues,Sjögren Syndrome
+reduced vision,auditory loss,equilibrium problems,poor night vision,retinal deterioration,progressive blindness,mobility difficulties,genetic transmission,Usher Syndrome
+muscle rigidity,muscle spasms,exaggerated startle,anxiety disorder,walking difficulties,spinal pain,muscle contractions,sound sensitivity,Stiff Person Syndrome
+repeated clotting,pregnancy loss,skin mottling,low platelet count,neurologic symptoms,kidney involvement,skin breakdown,cerebrovascular risk,Antiphospholipid Syndrome
+loose joints,soft skin,easy bruising,yellow skin bumps,vision issues,GI bleeding,kidney stones,cardiac problems,Pseudoxanthoma Elasticum
+lens opacity,nerve disease,balance problems,tendon deposits,loose stools,intellectual deterioration,muscle stiffness,seizure activity,Cerebrotendinous Xanthomatosis
+rough facial features,liver and spleen enlargement,bone abnormalities,corneal opacity,cardiac issues,breathing problems,joint rigidity,developmental delay,Hurler Syndrome
+growth retardation,delayed sexual development,tiredness,muscle weakness,increased adipose tissue,reduced bone mass,social isolation,concentration problems,Growth Hormone Deficiency
+high blood pressure,head pain,heart racing,profuse sweating,anxiety attacks,nausea,chest discomfort,trembling,Pheochromocytoma
+membrane lesions,skin lesions,nail changes,mouth pain,burning feelings,white areas,tissue breakdown,scar formation,Lichen Planus
+vision blurring,visual field reduction,head pain,eye discomfort,light halos,stomach upset,red eyes,sight loss,Glaucoma
+voice hoarseness,tiredness,weight increase,cold sensitivity,bowel slowness,skin dryness,hair thinning,mood depression,Hashimoto's Thyroiditis
+skin hardening,itching sensation,skin darkening,joint tightness,swallowing difficulty,breathing problems,kidney involvement,heart issues,Scleroderma
+red scaling patches,itching,silvery scales,bleeding skin,pain,joint involvement,nail alterations,exhaustion,Psoriasis
+light sensitivity,nerve symptoms,stomach pain,skin blistering,psychiatric issues,muscle weakness,seizure activity,dark colored urine,Porphyria
+stomach pain,abdominal swelling,nausea,blood in stool,diarrhea,weight reduction,low blood count,colon cancer family history,Familial Adenomatous Polyposis
+skin blistering,sun sensitivity,scarring,fragile skin,nail problems,tooth issues,growth problems,anemia,Epidermolysis Bullosa
+heat sensitivity,appetite increase,weight reduction,heart palpitations,hand tremor,excessive sweating,anxiety,protruding eyes,Graves' Disease
+muscle weakness,eyelid drooping,swallowing problems,double vision,unclear speech,breathing difficulties,tiredness,muscle spasms,Myasthenia Gravis
+anemia,yellowing skin,tiredness,bone pain,spleen enlargement,growth delays,gallbladder stones,leg sores,Beta Thalassemia
+abnormal walking,speech difficulties,involuntary movements,personality alterations,depression,swallowing problems,cognitive deterioration,family history,Huntington's Disease
+skin sores,finger tissue death,calcium deposits,small blood vessels,finger thickening,cold-induced spasm,swallowing difficulty,shortness of breath,CREST Syndrome
+weakness,muscle twitching,stiffness,speech problems,swallowing difficulties,breathing issues,muscle cramps,emotional instability,Amyotrophic Lateral Sclerosis
+hand tremor,muscle rigidity,slow movement,balance problems,expressionless face,shuffling walk,depression,sleep disorders,Parkinson's Disease
+memory problems,confusion,personality changes,daily task difficulty,language issues,disorientation,mood alterations,social withdrawal,Alzheimer's Disease
+tiredness,weight reduction,night sweating,lymph node enlargement,fever,itching sensation,alcohol-triggered pain,coughing,Hodgkin's Lymphoma
+extreme thirst,frequent urination,weight loss,tiredness,blurred vision,slow wound healing,urine ketones,nausea,Type 1 Diabetes
+excessive bleeding,easy bruising,small red spots,nosebleeds,heavy periods,gum bleeding,prolonged surgical bleeding,bleeding family history,Von Willebrand Disease
+heart sound abnormality,breathing difficulty,tiredness,chest pain,dizziness,fainting,heart racing,exercise limitation,Marfan Syndrome Cardiac Variant
+bone discomfort,abnormal fractures,high calcium,anemia,renal problems,confusion,constipation,tiredness,Multiple Myeloma
+seizure disorder,developmental delay,skin abnormalities,behavioral issues,learning difficulties,kidney problems,heart abnormalities,dental problems,Tuberous Sclerosis
+balance problems,muscle weakness,vision issues,hearing loss,diabetes,heart problems,spine curvature,foot deformities,Friedreich's Ataxia
+reduced stature,distinctive facial features,heart defects,intellectual disability,friendly personality,anxiety,attention problems,high calcium,Williams Syndrome
+developmental delay,large head,seizures,autism spectrum behaviors,intellectual disability,hyperactivity,sleep problems,connective tissue problems,Fragile X Syndrome (Advanced)
+joint rigidity,tissue nodules,contractures,hand deformity,gripping difficulty,progressive worsening,family history,alcohol association,Dupuytren Contracture
+sight loss,side vision loss,night blindness,color vision difficulty,light sensitivity,progressive blindness,family history,genetic inheritance,Retinitis Pigmentosa
+weight reduction,stomach pain,diarrhea,bloating,tiredness,nutrient deficiencies,skin rash,bone problems,Celiac Disease
+stomach pain,diarrhea,rectal bleeding,weight loss,tiredness,fever,mouth sores,joint pain,Crohn's Disease
+joint aches,skin rash,kidney problems,muscle weakness,cold-induced spasm,lung problems,fever,tiredness,Mixed Connective Tissue Disease
+low blood count,tiredness,breathing difficulty,growth problems,birth defects,heart problems,cleft palate,thumb abnormalities,Diamond-Blackfan Anemia
+breathing distress,blue coloration,poor feeding,repeated infections,heart defects,low calcium,distinctive facial features,developmental delay,DiGeorge Syndrome
+reduced muscle tone,feeding difficulties,distinctive facial features,intellectual disability,heart defects,vision problems,hearing problems,increased infection risk,Down Syndrome
+cleft lip/palate,heart defects,abnormal fingers,learning difficulties,speech delays,behavioral problems,kidney problems,immune deficiency,22q11.2 Deletion Syndrome
+swelling,pain,warmth,skin color changes,clotting family history,recent surgery,prolonged bed rest,birth control pill use,Thrombophilia
+muscle wasting,sensation loss,foot deformities,weakness,walking difficulty,hand weakness,balance problems,family history,Charcot-Marie-Tooth Disease
+profuse sweating,facial flushing,diarrhea,heart palpitations,wheezing,stomach pain,weight loss,skin changes,Carcinoid Syndrome
+excessive bruising,thin skin,poor wound healing,weight gain,high blood pressure,diabetes,depression,bone weakness,Cushing Syndrome
+excessive hair growth,irregular periods,acne,weight gain,insulin resistance,infertility,mood changes,sleep breathing problems,Polycystic Ovary Syndrome
+heat sensitivity,heart palpitations,hand tremor,weight loss,anxiety,sweating,diarrhea,muscle weakness,Thyrotoxicosis
+cold sensitivity,tiredness,constipation,weight gain,dry skin,hair loss,depression,muscle weakness,Hypothyroidism
+breathing difficulties,lung infections,digestive problems,chronic cough,sinus infections,ear infections,infertility,airway dilation,Primary Ciliary Dyskinesia
+headaches,vision problems,ear ringing,nausea,vomiting,double vision,neck stiffness,confusion,Idiopathic Intracranial Hypertension
+facial butterfly rash,arthritis,light sensitivity,kidney problems,neurological symptoms,blood disorders,fever,tiredness,Lupus Erythematosus
+fever,lymph node swelling,liver and spleen enlargement,neurological symptoms,bleeding,liver problems,kidney problems,respiratory failure,Hemophagocytic Lymphohistiocytosis
+muscle weakness,heart abnormalities,exercise intolerance,tiredness,seizures,hearing loss,vision problems,developmental delays,Mitochondrial Myopathy
+tiredness,muscle pain,brain fog,sleep disturbances,headaches,tender points,depression,anxiety,Chronic Fatigue Syndrome
+seizures,skin lesions,developmental delay,eye pressure,one-sided weakness,intellectual disability,facial birthmark,eye abnormalities,Sturge-Weber Syndrome
+hypermobile joints,stretchy skin,fragile blood vessels,easy bruising,organ rupture,artery tearing,lung collapse,severe complications,Vascular Ehlers-Danlos Syndrome
+progressive blindness,brain disease,balance problems,seizures,dementia,movement disorders,behavioral changes,premature death,Batten Disease
+yellow skin,vomiting,enlarged liver,neurological problems,poor feeding,failure to thrive,developmental delays,brain damage risk,Crigler-Najjar Syndrome
+poor growth,facial abnormalities,congenital heart defects,bleeding disorders,learning difficulties,short stature,webbed neck,undescended testes,Noonan Syndrome
+small head,stiffness,intellectual disability,seizures,movement disorders,breathing problems,feeding difficulties,progressive deterioration,Rett Syndrome
+intellectual disability,behavioral problems,enlarged testes,autism spectrum behaviors,hyperactivity,seizures,connective tissue problems,heart valve prolapse,Fragile X Syndrome
+heart sound abnormality,blue skin tinge,tiredness,breathing difficulty,poor feeding,failure to thrive,finger clubbing,squatting position,Tetralogy of Fallot
+kidney cysts,liver cysts,brain aneurysms,high blood pressure,kidney stones,urinary infections,back pain,kidney failure,Polycystic Kidney Disease
+hand tremor,balance problems,dementia,liver problems,corneal rings,psychiatric symptoms,movement disorders,swallowing difficulty,Wilson's Disease
+yellowing skin,dark urine,stomach pain,tiredness,stress-triggered symptoms,fasting-triggered symptoms,mild bilirubin elevation,family history,Gilbert's Syndrome
+joint pain,fever,salmon-colored rash,cold-triggered symptoms,eye redness,lymph node swelling,headache,muscle pain,Familial Cold Autoinflammatory Syndrome
+repeated infections,failure to thrive,diarrhea,pneumonia,opportunistic infections,absent immune tissue,early death family history,genetic inheritance,Severe Combined Immunodeficiency
+hair loss,nail changes,skin changes,bone marrow failure,lung scarring,liver problems,premature aging,cancer predisposition,Dyskeratosis Congenita
+abnormal red blood cells,yellowing skin,enlarged spleen,anemia,gallbladder stones,leg sores,tiredness,anemia family history,Hereditary Spherocytosis
+heart abnormalities,limb defects,spine abnormalities,kidney problems,growth problems,anal problems,windpipe problems,multiple malformations,VACTERL Association
+coughing blood,small blood vessels,nosebleeds,artery-vein malformations,bleeding family history,iron deficiency anemia,breathing difficulty,tiredness,Hereditary Hemorrhagic Telangiectasia
+facial weakness,shoulder weakness,distal weakness,foot drop,shoulder blade winging,hearing loss,eye abnormalities,asymmetric weakness,Facioscapulohumeral Muscular Dystrophy
+involuntary movements,psychiatric symptoms,cognitive decline,personality changes,depression,irritability,swallowing difficulty,weight loss,Huntington's Disease
+club foot,spine curvature,contractures,joint deformities,muscle weakness,breathing problems,feeding difficulties,multiple joint involvement,Arthrogryposis
+high-arched palate,long fingers,flat feet,tall stature,spine curvature,joint contractures,muscle weakness,heart problems,Beals Syndrome
+sudden heart death,fainting,heart racing,sudden death family history,prolonged heart rhythm,dangerous rhythm,exercise symptoms,medication sensitivity,Long QT Syndrome
+blood cell destruction,neurological abnormalities,kidney failure,low platelets,blood fragments,confusion,seizures,high blood pressure,Hemolytic Uremic Syndrome
+skin breakdown,chronic inflammation,delayed healing,painful lesions,trauma sensitivity,arthritis,eye inflammation,bowel disease association,Pyoderma Gangrenosum
+repeated pneumonia,sinus problems,airway dilation,organ reversal,infertility,chronic cough,hearing loss,smell loss,Kartagener Syndrome
+stiffness,back pain,reduced spine mobility,tiredness,eye inflammation,bowel problems,skin lesions,family history,Ankylosing Spondylitis
+seizure disorder,intellectual disability,facial growths,heart tumors,kidney tumors,brain lesions,behavioral problems,autism spectrum,Tuberous Sclerosis Complex
+muscle weakness,repeated infections,low muscle tone,breathing problems,feeding difficulties,distinctive facial features,eyelid drooping,eye muscle weakness,Myotubular Myopathy
+muscle weakness,muscle wasting,muscle twitching,breathing problems,swallowing difficulties,progressive weakness,family history,genetic inheritance,Spinal Muscular Atrophy
+eye pressure,large cornea,iris underdevelopment,tooth abnormalities,belly button abnormalities,hearing loss,distinctive facial features,developmental delays,Axenfeld-Rieger Syndrome
+small eyes,intellectual disability,seizures,brain abnormality,eye lesions,spine abnormalities,female predominance,infant spasms,Aicardi Syndrome
+heart abnormalities,hearing loss,skin color changes,fainting,sudden heart death,prolonged heart rhythm,deafness family history,heart rhythm abnormalities,Jervell and Lange-Nielsen Syndrome
+scaly skin,mental retardation,leg stiffness,eye deterioration,fatty substance buildup,itching,growth problems,seizures,Sjögren-Larsson Syndrome
+hair loss,nail changes,thick skin on palms,mouth white patches,hoarse voice,painful nails,thickened skin,cyst formation,Pachyonychia Congenita
+repeated infections,eczema,low platelets,bloody diarrhea,autoimmune problems,increased cancer risk,immune deficiency,small red spots,Wiskott-Aldrich Syndrome
+skin fragility,light sensitivity,developmental delay,premature aging,lens opacity,hearing loss,growth failure,nerve deterioration,Cockayne Syndrome
+lens opacity,hearing loss,bone abnormalities,nearsightedness,retinal detachment,cleft palate,joint problems,distinctive facial features,Stickler Syndrome
+abnormal facial features,short stature,short fingers,intellectual disability,behavioral problems,growth problems,small head,distinctive odor,Smith-Lemli-Opitz Syndrome
+skin blisters,light sensitivity,excessive hair,liver problems,stomach pain,red urine,nerve symptoms,iron buildup,Porphyria Cutanea Tarda
+heart racing,fainting,sudden heart arrest,sudden death family history,abnormal heart test,dangerous heart rhythm,exercise intolerance,fever symptoms,Brugada Syndrome
+low white cells,repeated infections,mouth sores,fever,skin infections,gum inflammation,lymph node swelling,cyclic pattern,Cyclic Neutropenia
+anemia,low white cells,low platelets,growth problems,bone abnormalities,kidney problems,cancer predisposition,chromosome instability,Fanconi Anemia
+finger tightness,finger webbing,tissue growths,palm nodules,finger deviation,function problems,family history,progressive worsening,Dupuytren's Disease
+short stature,webbed neck,broad chest,heart defects,learning difficulties,bleeding disorders,fluid problems,kidney abnormalities,Noonan Syndrome
+patchy hair loss,nail pitting,joint pain,thyroid autoimmune disease,white skin patches,skin allergy,emotional stress,autoimmune family history,Alopecia Areata
+mental decline,muscle stiffness,blindness,adrenal problems,behavioral problems,seizures,hearing loss,skin color changes,Adrenoleukodystrophy
+eyelid drooping,eye muscle weakness,eye pigment changes,heart block,muscle weakness,exercise intolerance,diabetes,hearing loss,Kearns-Sayre Syndrome
+repeated fractures,blue eye whites,tooth problems,short stature,triangular face,hearing loss,easy bruising,bone deformity,Osteogenesis Imperfecta Type III
+small head,optic nerve problems,intellectual disability,low muscle tone,seizures,eye-brain problems,trunk obesity,distinctive facial features,Cohen Syndrome
+intellectual disability,excessive eating,underdeveloped sex organs,obesity,eye deterioration,extra fingers,kidney problems,behavioral problems,Bardet-Biedl Syndrome
+sun sensitivity,skin cancer,freckling,premature aging,lens opacity,nerve problems,growth problems,DNA repair defect,Xeroderma Pigmentosum
+red blood cell abnormalities,iron buildup,tiredness,liver problems,diabetes,heart problems,skin color changes,joint pain,Hereditary Hemochromatosis
+heart abnormalities,bone malformations,urinary abnormalities,growth problems,distinctive facial features,kidney problems,limb defects,multiple organ involvement,CHARGE Syndrome
+swallowing difficulty,food return,breathing issues,coughing,choking,pneumonia,feeding difficulties,failure to thrive,Esophageal Atresia
+cleft palate,small jaw,tongue positioned back,breathing problems,feeding difficulties,hearing loss,speech delays,tooth problems,Pierre Robin Sequence
+optic nerve underdevelopment,midline defects,hormone deficiencies,vision problems,growth hormone deficiency,seizures,developmental delays,pituitary problems,Septo-Optic Dysplasia
+intestinal growths,skin color changes,increased cancer risk,GI bleeding,bowel telescoping,cancer family history,skin-mouth pigmentation,breast cancer risk,Peutz-Jeghers Syndrome
+skin tumors,colon cancer,aggressive tumors,bone growths,tooth abnormalities,eye pigmentation,cancer family history,multiple growths,Gardner Syndrome
+intellectual disability,short stature,stubby hands,distinctive facial features,behavioral problems,sleep breathing problems,spine problems,eye abnormalities,Rubinstein-Taybi Syndrome
+tall stature,hyperextensible joints,lens dislocation,intellectual disability,seizures,blood clots,bone weakness,psychiatric problems,Homocystinuria
+muscle cramps,exercise intolerance,muscle breakdown,tiredness,muscle pain,weakness,muscle protein in urine,glucose processing defect,McArdle Disease
+progressive muscle jerks,seizures,balance problems,dementia,vision loss,muscle weakness,speech problems,starch bodies,Lafora Disease
+movement disorders,intellectual disability,self-harm,kidney stones,gout,muscle stiffness,movement abnormalities,behavioral problems,Lesch-Nyhan Syndrome
+muscle weakness,lens opacity,frontal hair loss,muscle stiffness,heart conduction problems,diabetes,sleep breathing problems,GI problems,Myotonic Dystrophy
+abnormal eye movements,poor balance,speech problems,balance problems,tremor,cognitive problems,depression,family history,Spinocerebellar Ataxia
+bone fragility,blue eye whites,hearing loss,short stature,joint looseness,easy bruising,tooth problems,triangular face,Van der Hoeve Syndrome
+rough facial features,short stature,liver and spleen enlargement,corneal opacity,joint stiffness,heart problems,breathing issues,developmental delay,Mucopolysaccharidosis
+excessive growth,body asymmetry,large head,large tongue,belly wall defect,low blood sugar,cancer predisposition,ear abnormalities,Beckwith-Wiedemann Syndrome
+heart defects,cleft palate,learning difficulties,speech delays,distinctive facial features,immune deficiency,behavioral problems,kidney abnormalities,Velocardiofacial Syndrome
+dry skin,sparse eyebrows,brittle hair,missing teeth,heat sensitivity,nail abnormalities,immune problems,cleft lip/palate,Ectodermal Dysplasia Syndrome
+excessive bruising,gum bleeding,post-surgery bleeding,nosebleeds,large platelets,low platelets,giant platelets,prolonged bleeding time,Bernard-Soulier Syndrome
+stroke,seizures,psychiatric symptoms,migraine,mood disorders,cognitive decline,brain white matter lesions,stroke family history,CADASIL

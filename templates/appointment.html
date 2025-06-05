@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: slideUp 0.6s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .form-container {
+            padding: 40px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+            font-size: 0.95rem;
+        }
+
+        .required {
+            color: #e74c3c;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e1e8ed;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: #fff;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #4facfe;
+            box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+            transform: translateY(-2px);
+        }
+
+        input:invalid:not(:focus):not(:placeholder-shown) {
+            border-color: #e74c3c;
+            background-color: #fdf2f2;
+        }
+
+        input:valid:not(:focus):not(:placeholder-shown) {
+            border-color: #27ae60;
+            background-color: #f2fdf4;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .radio-group, .checkbox-group {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .radio-item, .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            padding: 8px 12px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .radio-item:hover, .checkbox-item:hover {
+            background-color: #f8f9fa;
+        }
+
+        .radio-item input, .checkbox-item input {
+            width: auto;
+            margin: 0;
+        }
+
+        .time-slots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .time-slot {
+            padding: 12px;
+            border: 2px solid #e1e8ed;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: #fff;
+        }
+
+        .time-slot:hover {
+            border-color: #4facfe;
+            background-color: #f0f8ff;
+        }
+
+        .time-slot.selected {
+            background: #4facfe;
+            color: white;
+            border-color: #4facfe;
+        }
+
+        .time-slot.disabled {
+            background: #f5f5f5;
+            color: #999;
+            cursor: not-allowed;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 16px 40px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .submit-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .error-message {
+            color: #e74c3c;
+            font-size: 0.875rem;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #c3e6cb;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .form-container {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .radio-group, .checkbox-group {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏥 Book Your Appointment</h1>
+            <p>Schedule your visit with our healthcare professionals</p>
+        </div>
+        
+        <div class="form-container">
+            <div class="success-message" id="successMessage">
+                ✅ Appointment request submitted successfully! We'll contact you shortly to confirm.
+            </div>
+
+            <form id="appointmentForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="firstName">First Name <span class="required">*</span></label>
+                        <input type="text" id="firstName" name="firstName" required>
+                        <div class="error-message" id="firstNameError"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name <span class="required">*</span></label>
+                        <input type="text" id="lastName" name="lastName" required>
+                        <div class="error-message" id="lastNameError"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message" id="emailError"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <div class="error-message" id="phoneError"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="dob">Date of Birth <span class="required">*</span></label>
+                        <input type="date" id="dob" name="dob" required>
+                        <div class="error-message" id="dobError"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="gender">Gender <span class="required">*</span></label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                            <option value="prefer-not-to-say">Prefer not to say</option>
+                        </select>
+                        <div class="error-message" id="genderError"></div>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="address" placeholder="Enter your full address"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="department">Department <span class="required">*</span></label>
+                        <select id="department" name="department" required>
+                            <option value="">Select Department</option>
+                            <option value="general">General Medicine</option>
+                            <option value="cardiology">Cardiology</option>
+                            <option value="dermatology">Dermatology</option>
+                            <option value="orthopedics">Orthopedics</option>
+                            <option value="pediatrics">Pediatrics</option>
+                            <option value="gynecology">Gynecology</option>
+                            <option value="neurology">Neurology</option>
+                            <option value="ophthalmology">Ophthalmology</option>
+                        </select>
+                        <div class="error-message" id="departmentError"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="doctor">Preferred Doctor</label>
+                        <select id="doctor" name="doctor">
+                            <option value="">Any Available Doctor</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="appointmentDate">Preferred Date <span class="required">*</span></label>
+                        <input type="date" id="appointmentDate" name="appointmentDate" required>
+                        <div class="error-message" id="appointmentDateError"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Preferred Time <span class="required">*</span></label>
+                        <div class="time-slots" id="timeSlots">
+                            <div class="time-slot" data-time="09:00">9:00 AM</div>
+                            <div class="time-slot" data-time="10:00">10:00 AM</div>
+                            <div class="time-slot" data-time="11:00">11:00 AM</div>
+                            <div class="time-slot" data-time="14:00">2:00 PM</div>
+                            <div class="time-slot" data-time="15:00">3:00 PM</div>
+                            <div class="time-slot" data-time="16:00">4:00 PM</div>
+                        </div>
+                        <input type="hidden" id="selectedTime" name="selectedTime" required>
+                        <div class="error-message" id="selectedTimeError"></div>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label>Appointment Type <span class="required">*</span></label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="consultation" name="appointmentType" value="consultation" required>
+                                <label for="consultation">Consultation</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="followup" name="appointmentType" value="followup" required>
+                                <label for="followup">Follow-up</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="checkup" name="appointmentType" value="checkup" required>
+                                <label for="checkup">Check-up</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="emergency" name="appointmentType" value="emergency" required>
+                                <label for="emergency">Emergency</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="appointmentTypeError"></div>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="symptoms">Symptoms/Reason for Visit <span class="required">*</span></label>
+                        <textarea id="symptoms" name="symptoms" placeholder="Please describe your symptoms or reason for the appointment" required></textarea>
+                        <div class="error-message" id="symptomsError"></div>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="medicalHistory">Medical History</label>
+                        <textarea id="medicalHistory" name="medicalHistory" placeholder="Any relevant medical history, allergies, or current medications"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label>Insurance Information</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="hasInsurance" name="hasInsurance">
+                                <label for="hasInsurance">I have health insurance</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" id="insuranceDetails" style="display: none;">
+                        <label for="insuranceProvider">Insurance Provider</label>
+                        <input type="text" id="insuranceProvider" name="insuranceProvider">
+                    </div>
+                    
+                    <div class="form-group" id="insuranceNumber" style="display: none;">
+                        <label for="policyNumber">Policy Number</label>
+                        <input type="text" id="policyNumber" name="policyNumber">
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    📅 Book Appointment
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Doctor data for each department
+        const doctorsByDepartment = {
+            'general': ['Dr. Smith', 'Dr. Johnson', 'Dr. Williams'],
+            'cardiology': ['Dr. Brown', 'Dr. Davis', 'Dr. Miller'],
+            'dermatology': ['Dr. Wilson', 'Dr. Moore'],
+            'orthopedics': ['Dr. Taylor', 'Dr. Anderson'],
+            'pediatrics': ['Dr. Thomas', 'Dr. Jackson'],
+            'gynecology': ['Dr. White', 'Dr. Harris'],
+            'neurology': ['Dr. Martin', 'Dr. Thompson'],
+            'ophthalmology': ['Dr. Garcia', 'Dr. Martinez']
+        };
+
+        // Set minimum date to today
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('appointmentDate').min = today;
+        
+        // Set maximum date to 3 months from today
+        const maxDate = new Date();
+        maxDate.setMonth(maxDate.getMonth() + 3);
+        document.getElementById('appointmentDate').max = maxDate.toISOString().split('T')[0];
+
+        // Set maximum date for DOB (must be at least 1 year old)
+        const maxDOB = new Date();
+        maxDOB.setFullYear(maxDOB.getFullYear() - 1);
+        document.getElementById('dob').max = maxDOB.toISOString().split('T')[0];
+
+        // Update doctors based on department selection
+        document.getElementById('department').addEventListener('change', function() {
+            const department = this.value;
+            const doctorSelect = document.getElementById('doctor');
+            
+            // Clear existing options
+            doctorSelect.innerHTML = '<option value="">Any Available Doctor</option>';
+            
+            if (department && doctorsByDepartment[department]) {
+                doctorsByDepartment[department].forEach(doctor => {
+                    const option = document.createElement('option');
+                    option.value = doctor.toLowerCase().replace(/\s+/g, '-');
+                    option.textContent = doctor;
+                    doctorSelect.appendChild(option);
+                });
+            }
+        });
+
+        // Time slot selection
+        document.querySelectorAll('.time-slot').forEach(slot => {
+            slot.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    // Remove selection from all slots
+                    document.querySelectorAll('.time-slot').forEach(s => s.classList.remove('selected'));
+                    
+                    // Add selection to clicked slot
+                    this.classList.add('selected');
+                    document.getElementById('selectedTime').value = this.dataset.time;
+                    
+                    // Clear error if exists
+                    document.getElementById('selectedTimeError').style.display = 'none';
+                }
+            });
+        });
+
+        // Insurance checkbox functionality
+        document.getElementById('hasInsurance').addEventListener('change', function() {
+            const insuranceDetails = document.getElementById('insuranceDetails');
+            const insuranceNumber = document.getElementById('insuranceNumber');
+            
+            if (this.checked) {
+                insuranceDetails.style.display = 'block';
+                insuranceNumber.style.display = 'block';
+            } else {
+                insuranceDetails.style.display = 'none';
+                insuranceNumber.style.display = 'none';
+                document.getElementById('insuranceProvider').value = '';
+                document.getElementById('policyNumber').value = '';
+            }
+        });
+
+        // Form validation
+        function validateForm() {
+            let isValid = true;
+            const requiredFields = ['firstName', 'lastName', 'email', 'phone', 'dob', 'gender', 'department', 'appointmentDate', 'symptoms'];
+            
+            // Reset all error messages
+            document.querySelectorAll('.error-message').forEach(msg => msg.style.display = 'none');
+            
+            // Check required fields
+            requiredFields.forEach(fieldId => {
+                const field = document.getElementById(fieldId);
+                if (!field.value.trim()) {
+                    document.getElementById(fieldId + 'Error').textContent = 'This field is required';
+                    document.getElementById(fieldId + 'Error').style.display = 'block';
+                    isValid = false;
+                }
+            });
+            
+            // Check email format
+            const email = document.getElementById('email').value;
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (email && !emailRegex.test(email)) {
+                document.getElementById('emailError').textContent = 'Please enter a valid email address';
+                document.getElementById('emailError').style.display = 'block';
+                isValid = false;
+            }
+            
+            // Check phone format
+            const phone = document.getElementById('phone').value;
+            const phoneRegex = /^[\+]?[1-9][\d]{0,15}$/;
+            if (phone && !phoneRegex.test(phone.replace(/[\s\-\(\)]/g, ''))) {
+                document.getElementById('phoneError').textContent = 'Please enter a valid phone number';
+                document.getElementById('phoneError').style.display = 'block';
+                isValid = false;
+            }
+            
+            // Check time selection
+            if (!document.getElementById('selectedTime').value) {
+                document.getElementById('selectedTimeError').textContent = 'Please select a preferred time';
+                document.getElementById('selectedTimeError').style.display = 'block';
+                isValid = false;
+            }
+            
+            // Check appointment type
+            const appointmentType = document.querySelector('input[name="appointmentType"]:checked');
+            if (!appointmentType) {
+                document.getElementById('appointmentTypeError').textContent = 'Please select an appointment type';
+                document.getElementById('appointmentTypeError').style.display = 'block';
+                isValid = false;
+            }
+            
+            return isValid;
+        }
+
+        // Form submission
+        document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            if (validateForm()) {
+                const submitBtn = document.getElementById('submitBtn');
+                submitBtn.disabled = true;
+                submitBtn.textContent = '📤 Submitting...';
+                
+                // Simulate form submission
+                setTimeout(() => {
+                    document.getElementById('successMessage').style.display = 'block';
+                    document.getElementById('appointmentForm').reset();
+                    document.querySelectorAll('.time-slot').forEach(slot => slot.classList.remove('selected'));
+                    document.getElementById('insuranceDetails').style.display = 'none';
+                    document.getElementById('insuranceNumber').style.display = 'none';
+                    
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = '📅 Book Appointment';
+                    
+                    // Scroll to success message
+                    document.getElementById('successMessage').scrollIntoView({ behavior: 'smooth' });
+                }, 2000);
+            }
+        });
+
+        // Real-time validation
+        document.querySelectorAll('input, select, textarea').forEach(field => {
+            field.addEventListener('blur', function() {
+                if (this.hasAttribute('required') && !this.value.trim()) {
+                    const errorElement = document.getElementById(this.id + 'Error');
+                    if (errorElement) {
+                        errorElement.textContent = 'This field is required';
+                        errorElement.style.display = 'block';
+                    }
+                } else {
+                    const errorElement = document.getElementById(this.id + 'Error');
+                    if (errorElement) {
+                        errorElement.style.display = 'none';
+                    }
+                }
+            });
+        });
+
+        // Disable past time slots for today
+        document.getElementById('appointmentDate').addEventListener('change', function() {
+            const selectedDate = new Date(this.value);
+            const today = new Date();
+            const currentTime = today.getHours();
+            
+            document.querySelectorAll('.time-slot').forEach(slot => {
+                const slotTime = parseInt(slot.dataset.time.split(':')[0]);
+                
+                if (selectedDate.toDateString() === today.toDateString() && slotTime <= currentTime) {
+                    slot.classList.add('disabled');
+                    if (slot.classList.contains('selected')) {
+                        slot.classList.remove('selected');
+                        document.getElementById('selectedTime').value = '';
+                    }
+                } else {
+                    slot.classList.remove('disabled');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
