@@ -5,7 +5,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 
 app = Flask(__name__)
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
-app.secret_key = '4hF@pZ9#sW!qK2mT$LxBv8NeYd^Ra6Ug'  # use a secure random key in production
+app.secret_key = '4hF@pZ9#sW!qK2mT$LxBv8NeYd^Ra6Ug' 
 
 
 try:
@@ -62,10 +62,9 @@ def predict():
         if not isinstance(symptoms, list) or len(symptoms) == 0:
             return jsonify({'error': 'Symptoms should be a non-empty list'}), 400
 
-        # Get prediction results
-        result = predictor.predict(symptoms)
         
-        # Format the response with percentages
+        result = predictor.predict(symptoms)
+   
         response = {
             'predictions': result['predictions'],
             'top_percentages': result['top_percentages']
